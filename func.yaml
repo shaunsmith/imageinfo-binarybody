@@ -1,0 +1,8 @@
+schema_version: 20180708
+name: imageinfo-binarybody
+version: 0.0.1
+runtime: docker
+triggers:
+- name: imageinfo-binarybody-trigger
+  type: http
+  source: /imageinfo-bin
